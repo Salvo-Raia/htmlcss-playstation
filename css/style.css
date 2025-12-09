@@ -18,8 +18,14 @@
     min-height: 400px;
 }
 
+#ps-now {
+    color: white;
+    background-color: rgb(12, 12, 78);
+}
+
 #new-titles {
     background-color: rgb(53, 53, 53);
+    min-height: 400px;
 }
 
 /* Cards */ 
