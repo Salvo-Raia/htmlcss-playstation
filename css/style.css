@@ -1,0 +1,44 @@
+/* Jumbotron */ 
+.main-jumbo {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    min-height: 500px;
+    color: white;
+}
+
+.new-titles-jumbo {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    min-height: 500px;
+    color: white;
+}
+
+#ps-store {
+    background-color: rgb(172, 172, 172);
+    min-height: 400px;
+}
+
+#new-titles {
+    background-color: rgb(53, 53, 53);
+}
+
+/* Cards */ 
+.highlight-card-wrapper {
+    gap: 10px;
+}
+
+.highlight-card {
+    flex-basis: calc(100% /6 - 10px * 5 /6)
+}
+
+.ps-shower-card {
+    flex-basis: calc(100% /5 - 10px * 4 /5);
+}
+
+/* Debug */ 
+.debug,
+.debug > * {
+    border: 3px dashed red;
+    padding: 6px;
+    min-height: 30px;
+}
