@@ -1,7 +1,7 @@
 /* Jumbos and section backgrounds */
 .highlight-jumbo {
     background-image: url(../img/jumbo-bg.png);
-    background-position: top;
+    background-position: center;
     background-size: cover;
 }
 
@@ -11,8 +11,14 @@
 }
 
 .new-publications-jumbo {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.new-publications-jumbo-contents {
     min-height: 500px;
-    background-color: blueviolet;
+    gap: 30px;
 }
 
 #new-publications {
