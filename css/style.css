@@ -1,8 +1,16 @@
-.main-jumbo {
+.highlight-jumbo {
     min-height: 500px;
     background-color: bisque;
 }
 
+.new-publications-jumbo {
+    min-height: 500px;
+    background-color: blueviolet;
+}
+
+#new-publications {
+    background-color: grey;
+}
 
 
 
