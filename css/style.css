@@ -1,6 +1,13 @@
+/* Jumbos and section backgrounds */
 .highlight-jumbo {
-    min-height: 500px;
-    background-color: bisque;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: top;
+    background-size: cover;
+}
+
+.main-jumbo-contents {
+    min-height: 600px;
+    gap: 35px;
 }
 
 .new-publications-jumbo {
