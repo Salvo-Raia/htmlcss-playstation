@@ -42,17 +42,13 @@
     gap: 10px;
 }
 
+/* Fonts */ 
+#discover h6 {
+    font-size: 12px;
+}
 
-
-
-
-
-/* Debug */ 
-.debug,
-.debug > * {
-    border: 3px dashed red;
-    padding: 6px;
-    min-height: 30px;
+#discover h5 {
+    font-size:12px;
 }
 
 
@@ -65,4 +61,12 @@ footer {
 ul {
     list-style: none;
     padding-inline-start: 0;
+}
+
+/* Debug */ 
+.debug,
+.debug > * {
+    border: 3px dashed red;
+    padding: 6px;
+    min-height: 30px;
 }
