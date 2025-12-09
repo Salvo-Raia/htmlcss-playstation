@@ -53,9 +53,8 @@
 }
 
 /* Debug */ 
-.debug,
-.debug > * {
+.debug {
     border: 3px dashed red;
-    padding: 6px;
+    background-color: aqua;
     min-height: 30px;
 }
