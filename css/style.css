@@ -3,6 +3,10 @@
     height: 15px;
 }
 
+.nav-bar-right img {
+    height: 30px;
+} 
+
 /* Jumbos and section backgrounds */
 .highlight-jumbo {
     background-image: url(../img/jumbo-bg.png);
@@ -37,12 +41,14 @@
 }
 
 #ps-plus {
-    background-color: grey;
+    background-color: rgb(192, 192, 192);
 }
 
 #ps-now {
     background-color: darkblue;
 }
+
+/* Fonts */ 
 
 /* Footer */ 
 footer {
@@ -50,13 +56,17 @@ footer {
     background-color: rgb(0 67 156);
 }
 
+footer img {
+    height: 30px;
+}
+
+.disclaimer img {
+    height: 50px;
+}
+
 ul {
     list-style: none;
     padding-inline-start: 0;
-}
-
-.disclaimer {
-    max-width: 50%;
 }
 
 /* Debug */ 
