@@ -48,8 +48,6 @@
     background-color: darkblue;
 }
 
-/* Fonts */ 
-
 /* Footer */ 
 footer {
     color: white;
@@ -60,6 +58,7 @@ footer img {
     height: 30px;
 }
 
+
 .disclaimer img {
     height: 50px;
 }
@@ -69,10 +68,36 @@ ul {
     padding-inline-start: 0;
 }
 
-/* Debug */ 
-.debug,
-.debug > * {
-    border: 3px dashed red;
-    padding: 6px;
-    min-height: 30px;
+/* Effects */
+.thumb:hover {
+    border-radius: 20px;
+    border: 2px solid blue;
+    padding: 0.25rem;
+}
+
+
+.device:hover {
+    border-bottom: 2px solid blue;
+    color: black;
+    opacity: 100%;
+}
+
+.device {
+    color: grey;
+    opacity: 60%;
+}
+
+.discount-fx:hover {
+    transform: scale(1.1);
+}
+
+.discount-fx {
+    transition: transform 0.1s linear;
+}
+
+/* Media Query */
+@media screen and (min-width: 1200px) {
+    .jumbo-internal-container {
+        width: calc(100% / 3);
+    }
 }
