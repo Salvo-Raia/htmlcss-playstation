@@ -45,6 +45,21 @@
     background-color: rgb(192, 192, 192);
 }
 
+.ps-plus-left-column,
+.ps-now-left-column {
+    height: 50vh;
+}
+
+.ps-plus-left-column img,
+.ps-now-left-column img {
+    height: 80px;
+}
+
+.ps-plus-right-column img,
+.ps-now-right-column img {
+    height: 50vh;
+}
+
 #ps-now {
     background-color: rgb(22 28 59);
 }
@@ -84,15 +99,26 @@ a {
 
 /* Effects */
 .thumb:hover {
-    border-radius: 20px;
+    translate: 0 -5px;
+    Box-shadow: 0px 3px 10px 1px rgba(0,0,0, 0.4);
+}
+
+#new-publications .thumb:hover {
+    Box-shadow: 0px 3px 10px 1px rgba(170, 170, 170, 0.4);
+}
+
+.thumb {
+    transition: translate 0.1s linear, box-shadow 0.1s linear;
+}
+
+.thumb-active {
     border: 2px solid blue;
-    padding: 0.25rem;
+    padding: 4px;
 }
 
 .device:hover {
     border-bottom: 2px solid blue;
     color: black;
-    opacity: 100%;
 }
 
 .device {
