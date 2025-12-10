@@ -1,24 +1,35 @@
+/* Navbar */ 
+.sony-navbar img {
+    height: 15px;
+}
+
 /* Jumbos and section backgrounds */
 .highlight-jumbo {
     background-image: url(../img/jumbo-bg.png);
-    background-position: center;
     background-size: cover;
+    background-position: top;
 }
 
-.main-jumbo-contents {
-    min-height: 600px;
-    gap: 35px;
+.highlight-jumbo-contents {
+    min-height: 700px;
+}
+
+.highlight-jumbo-contents img {
+    height: 50px;
 }
 
 .new-publications-jumbo {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 .new-publications-jumbo-contents {
-    min-height: 500px;
-    gap: 30px;
+    min-height: 600px;
+}
+
+.new-publications-jumbo-contents img {
+    height: 200px;
 }
 
 #new-publications {
@@ -33,25 +44,6 @@
     background-color: darkblue;
 }
 
-.sony-bar {
-    padding: 10px;
-    background-color: black;
-}
-
-.nav-bar-right {
-    gap: 10px;
-}
-
-/* Fonts */ 
-#discover h6 {
-    font-size: 12px;
-}
-
-#discover h5 {
-    font-size:12px;
-}
-
-
 /* Footer */ 
 footer {
     color: white;
@@ -61,6 +53,10 @@ footer {
 ul {
     list-style: none;
     padding-inline-start: 0;
+}
+
+.disclaimer {
+    max-width: 50%;
 }
 
 /* Debug */ 
