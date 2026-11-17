@@ -1,6 +1,6 @@
-![Boolean Tech Academy](https://img.shields.io/badge/Boolean_Tech_Academy-001632?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Boolean_Tech_Academy-1565C0?style=for-the-badge)
 
-# 🎓 Exercise 12/50 - PlayStation
+# 🎓 Exercise 12/50: PlayStation
 
 Recreating the responsive PlayStation homepage using Bootstrap 5.
 
@@ -36,7 +36,7 @@ Look for elements and sections that are identical or very similar, so they can b
 - Once a main section works correctly, move on to the next one.
 - Choose the development order of the sections strategically, keeping optimization and code reuse in mind.
 
-### 💡 Suggestions & Notes
+### 🔎 Notes
 
 Start simple and take things one step at a time.
 
@@ -57,4 +57,4 @@ Always try to understand what you're building and aim to complete the exercise, 
 
 ## ©️ Credits
 
-Exercise assigned by **Boolean Tech Academy** as part of the Web Development course - Class 152 - Year 2025-2026
+Exercise assigned by **Boolean Tech Academy** as part of the Web Development course (Class 152, A.Y. 2025–2026).
