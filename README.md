@@ -4,14 +4,11 @@
 
 Recreating the responsive PlayStation homepage using Bootstrap 5.
 
-## Project Overview
+## Project overview
 
-| Property | Details |
-|:--|:--|
-| Repository | htmlcss-playstation |
-| Category | Boolean Tech Academy |
-| Type | Exercise |
-| Exercise | 12/50 |
+| Repository | Project | Category | Main Focus | Exercise |
+|:--|:--|:--|:--|:--|
+| htmlcss-playstation | PlayStation | Exercise | Bootstrap 5 & Responsive layout | 12/50 |
 
 ## Assignment
 
